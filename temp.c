@@ -2,12 +2,6 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-//определяем порт и бит к которому подключено устройство 1-wire
-//#define W1_PORT PORTB
-//#define W1_DDR DDRB
-//#define W1_PIN PINB
-//#define W1_BIT 2
-
 //функция определяет есть ли устройство на шине
 unsigned char w1_find(w1_config conf)
 {
